@@ -43,7 +43,7 @@ export default function CreatePage() {
   );
   const [department, setDepartment] = useState(existing?.department ?? "");
   const [requestedBy, setRequestedBy] = useState(
-    existing?.requestedBy ?? "Jordan Davis",
+    existing?.requestedBy ?? "",
   );
   const [priority, setPriority] = useState<Priority>(
     existing?.priority ?? "Medium",

@@ -46,10 +46,10 @@ export default function Layout() {
         <div className="mt-auto border-t border-slate-100 p-4">
           <div className="flex items-center gap-3 rounded-xl bg-slate-50 p-3">
             <div className="grid h-9 w-9 place-items-center rounded-full bg-amber-100 text-xs font-bold text-amber-800">
-              JD
+              HS
             </div>
             <div className="min-w-0 flex-1">
-              <div className="truncate text-sm font-semibold">Jordan Davis</div>
+              <div className="truncate text-sm font-semibold">Harshal</div>
               <div className="text-xs text-slate-400">Procurement admin</div>
             </div>
             <ChevronDown size={15} className="text-slate-400" />
@@ -76,11 +76,11 @@ export default function Layout() {
             </button>
             <div className="hidden h-8 w-px bg-slate-200 sm:block" />
             <div className="hidden text-right sm:block">
-              <div className="text-sm font-semibold">Jordan Davis</div>
+              <div className="text-sm font-semibold">Harshal</div>
               <div className="text-xs text-slate-400">Operations</div>
             </div>
             <div className="grid h-9 w-9 place-items-center rounded-full bg-brand-100 text-xs font-bold text-brand-700">
-              JD
+              HS
             </div>
           </div>
         </header>

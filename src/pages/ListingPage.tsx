@@ -164,7 +164,7 @@ export default function ListingPage() {
                 setStatus(e.target.value);
                 setPage(1);
               }}
-              className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-600 outline-none focus:border-brand-500"
+              className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-600 outline-none focus:border-brand-500 cursor-pointer"
             >
               <option>All statuses</option>
               <option>Draft</option>
@@ -185,7 +185,7 @@ export default function ListingPage() {
                   setFrom(e.target.value);
                   setPage(1);
                 }}
-                className="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-2 text-sm text-slate-600 outline-none focus:border-brand-500"
+                className="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-2 text-sm text-slate-600 outline-none focus:border-brand-500 cursor-pointer"
               />
             </label>
             <label className="relative">
@@ -202,7 +202,7 @@ export default function ListingPage() {
                   setTo(e.target.value);
                   setPage(1);
                 }}
-                className="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-2 text-sm text-slate-600 outline-none focus:border-brand-500"
+                className="w-full rounded-xl border border-slate-200 py-2.5 pl-9 pr-2 text-sm text-slate-600 outline-none focus:border-brand-500 cursor-pointer"
               />
             </label>
             <button
